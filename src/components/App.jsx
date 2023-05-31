@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import { getContacts, getFilterValue } from 'redux/selectors';
 
 export function App() {
-  const contacts = useSelector(getContacts) ?? [];
+  const contacts = useSelector(getContacts);
   const filter = useSelector(getFilterValue);
 
   const handleFilterContacts = () => {
