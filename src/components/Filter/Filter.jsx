@@ -3,14 +3,18 @@ import { changeFilter } from 'redux/slices/filterSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { getFilterValue } from 'redux/selectors';
 
-
 export function Filter() {
-    const dispatch = useDispatch();
-    const filter = useSelector(getFilterValue);
+  const dispatch = useDispatch();
+  const filter = useSelector(getFilterValue);
 
-    return (
-        
-          <input className={css.inputSearch} type="text" value={filter} onChange={(evt)=> dispatch(changeFilter(evt.target.value))} name="filter" placeholder='Search'/>
-            )
+  return (
+    <input
+      className={css.inputSearch}
+      type="text"
+      value={filter}
+      onChange={evt => dispatch(changeFilter(evt.target.value))}
+      name="filter"
+      placeholder="Search"
+    />
+  );
 }
-

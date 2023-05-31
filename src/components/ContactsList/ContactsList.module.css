@@ -1,32 +1,32 @@
 .contacts {
-    width: 500px;
-    margin-left: 60px;
+  width: 500px;
+  margin-left: 60px;
 }
 
 .contactItem {
-    min-width: 400px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    align-items: center;
-    font-size: 18px;
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: 18px;
 }
 
 .contactName {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .contactNumber {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .buttonDelete {
-    display: block;
-        padding: 5px 15px;
-        cursor: pointer;
-        font-size: 12px;
-        color: black;
-        background-color:  rgba(124, 54, 54, 0.4);
-        border: transparent;
-        border-radius: 5px;
+  display: block;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 12px;
+  color: black;
+  background-color: rgba(124, 54, 54, 0.4);
+  border: transparent;
+  border-radius: 5px;
 }
