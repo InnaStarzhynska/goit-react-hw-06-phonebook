@@ -14,7 +14,7 @@ export function Filter() {
       value={filter}
       onChange={evt => dispatch(changeFilter(evt.target.value))}
       name="filter"
-      placeholder="Search"
+      placeholder="Search by name"
     />
   );
 }
