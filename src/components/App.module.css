@@ -1,8 +1,20 @@
 .titleForm {
+    font-style: italic;
     text-align: center;
     margin: 30px 0;
+    color:  rgb(124, 54, 54);
 }
 
 .titleContacts {
+    font-style: italic;
+    color: rgb(124, 54, 54);
     margin: 20px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
 }

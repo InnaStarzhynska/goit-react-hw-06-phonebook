@@ -17,8 +17,10 @@ export function App() {
 
   return (
     <div>
-      <h1 className={css.titleForm}>Phonebook</h1>
+      <div className={css.wrapper}>
+        <h1 className={css.titleForm}>Phonebook</h1>
       <PhonebookForm />
+      </div>
       <h2 className={css.titleContacts}>Contacts</h2>
       <Filter />
       <ContactsList contacts={handleFilterContacts()} />

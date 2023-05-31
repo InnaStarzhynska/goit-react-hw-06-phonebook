@@ -10,8 +10,8 @@ export function ContactsList({contacts}) {
       <ul className={css.contacts}>
           {contacts.map(contact => {
               return (<li className={css.contactItem} key={contact.id}>
-                  <span className={css.contactName}>{contact.name}:</span>
-                  <span className={css.contactNumber}>{contact.number}</span>
+                  <div><span className={css.contactName}>{contact.name}:</span>
+                  <span className={css.contactNumber}>{contact.number}</span></div>
                   <button className={css.buttonDelete} onClick={() => dispatch(deleteContact(contact.id))}>Delete</button>
               </li>
               )
